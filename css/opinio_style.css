@@ -1,0 +1,67 @@
+/* Reset simples */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url("../fonts/Cormorant_Garamond/static/CormorantGaramond-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat/static/Montserrat-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    background-color: #FAF9F6;
+    color: #4A4A4A;
+}
+
+header{
+    display: flex;
+    font-family: "Montserrat";
+}
+
+.img_logo{
+    margin:18px 0 0 56px;
+}
+
+a{
+    text-decoration: none;
+    padding: 0 5px 0 5px;
+    color: #4A4A4A;
+}
+
+.nave_cabecalho{
+    font-size: 20px;
+    margin: 50px auto 0 auto;
+}
+
+.compartilhar{
+    font-size: 16px;
+    margin: 42px 86px 0 0;
+    color: #FAF9F6;
+    background-color: #D4AF37;
+    width: 150px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    border-radius: 36px;
+}
+
+.linha{
+    display: flex;
+    height: 1px;           
+    background-color: #d8d5d5; 
+    width: 100%;  
+    margin-top: 18px;          
+}
